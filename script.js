@@ -1,3 +1,42 @@
+// Typing Effect
+const typedTextElement = document.getElementById('typed-text');
+const titles = ['Automation Developer', 'Software Developer', '.NET Developer', 'Azure Developer'];
+let titleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingSpeed = 100;
+const deletingSpeed = 50;
+const pauseBeforeDelete = 2000;
+const pauseBeforeType = 500;
+
+function typeEffect() {
+    const currentTitle = titles[titleIndex];
+
+    if (isDeleting) {
+        typedTextElement.textContent = currentTitle.substring(0, charIndex - 1);
+        charIndex--;
+    } else {
+        typedTextElement.textContent = currentTitle.substring(0, charIndex + 1);
+        charIndex++;
+    }
+
+    let timeout = isDeleting ? deletingSpeed : typingSpeed;
+
+    if (!isDeleting && charIndex === currentTitle.length) {
+        timeout = pauseBeforeDelete;
+        isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        titleIndex = (titleIndex + 1) % titles.length;
+        timeout = pauseBeforeType;
+    }
+
+    setTimeout(typeEffect, timeout);
+}
+
+// Start typing effect
+typeEffect();
+
 // Mobile Navigation Toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
