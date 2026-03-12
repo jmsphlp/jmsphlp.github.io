@@ -3,7 +3,7 @@
 **Location:** Santa Maria, Bulacan
 **Phone:** +63 917 458 3316
 **Email:** jmsphlp.ignacio@gmail.com
-**GitHub:** [github.com/jmsphlp](https://github.com/jmsphlp)
+**Website:** [portfolio](https://jmsphlp.github.io/)
 
 ---
 
