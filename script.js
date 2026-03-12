@@ -54,14 +54,32 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+// Theme Toggle
+const themeToggle = document.querySelector('.theme-toggle');
+const html = document.documentElement;
+
+// Check for saved theme preference or default to dark
+const savedTheme = localStorage.getItem('theme') || 'dark';
+if (savedTheme === 'light') {
+    html.setAttribute('data-theme', 'light');
+}
+
+themeToggle.addEventListener('click', () => {
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+});
+
 // Navbar background on scroll
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
+    const isLight = html.getAttribute('data-theme') === 'light';
     if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+        navbar.style.background = isLight ? 'rgba(248, 250, 252, 0.95)' : 'rgba(15, 23, 42, 0.95)';
     } else {
-        navbar.style.background = 'rgba(15, 23, 42, 0.9)';
+        navbar.style.background = isLight ? 'rgba(248, 250, 252, 0.9)' : 'rgba(15, 23, 42, 0.9)';
     }
 });
 
