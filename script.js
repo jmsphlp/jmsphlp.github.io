@@ -1,6 +1,6 @@
 // Typing Effect
 const typedTextElement = document.getElementById('typed-text');
-const titles = ['Automation Developer', 'Software Developer', '.NET Developer', 'Azure Developer'];
+const titles = ['Software Developer', 'Automation Developer', 'AI Developer'];
 let titleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -75,12 +75,7 @@ themeToggle.addEventListener('click', () => {
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
-    const isLight = html.getAttribute('data-theme') === 'light';
-    if (window.scrollY > 50) {
-        navbar.style.background = isLight ? 'rgba(248, 250, 252, 0.95)' : 'rgba(15, 23, 42, 0.95)';
-    } else {
-        navbar.style.background = isLight ? 'rgba(248, 250, 252, 0.9)' : 'rgba(15, 23, 42, 0.9)';
-    }
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
 
 // Smooth scroll for anchor links

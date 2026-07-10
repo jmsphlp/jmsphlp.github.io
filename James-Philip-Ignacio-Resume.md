@@ -9,7 +9,7 @@
 
 ## Profile
 
-Automation Developer focused on streamlining business processes through end-to-end automation, Azure cloud services, and API integrations. Experienced in building Microsoft Teams AI Agents, Azure Functions, and .NET development. Combines strong programming fundamentals with AI tools such as ChatGPT and Claude to deliver efficient, scalable, and well-documented solutions.
+AI/Automation Developer specializing in cloud architecture, AI agent development, and enterprise systems integration. Builds end-to-end solutions spanning Azure Functions, MCP server architectures, and third-party API integrations. Combines strong .NET/SQL fundamentals with AI-assisted development (Claude, GitHub Copilot) to deliver scalable, well-documented automation at pace.
 
 ---
 
@@ -18,14 +18,17 @@ Automation Developer focused on streamlining business processes through end-to-e
 ### Developer, YML Group Outsource Manila Inc.
 **November 2024 – Present**
 
-- Design, develop, and deploy end-to-end automation solutions using UiPath and Power Automate, including PDF data extraction and manipulation
-- Implement API and webhook integrations with external systems using secure token management via Azure Logic Apps
-- Develop SQL stored procedures and migration scripts for efficient database operations and data consolidation
-- Built Azure Functions for document management with secure file upload integrated with Azure Blob Storage and SQL Server
-- Built a Microsoft Teams AI Agent using Teams SDK, Azure OpenAI, and .NET 9 with interactive Adaptive Cards for automating business workflows
-- Integrated Azure Communication Services for automated email delivery and orchestration of client communications
-- Operate and monitor automation processes in production, providing timely error resolutions and optimizing run time
-- Deliver comprehensive technical documentation for all projects following industry best practices
+- Leveraged AI coding agents (Claude, GitHub Copilot) to accelerate development, code reviews, and documentation, integrating them into daily workflows for higher-quality and faster delivery
+- Applied deep familiarity with LLM models and agent skills frameworks to optimize prompt design and tool usage, reducing token consumption and improving cost-efficiency of AI-driven workflows
+- Integrated an MCP server ecosystem fronted by APIM for Azure AI Foundry agents, connecting third-party systems via API integration to enable natural-language agent access to internal business systems
+- Published an MCP-powered bot with Azure Durable Functions orchestration to Microsoft Teams/M365 via Azure AI Foundry, resolving Entra ID app registration and Azure Policy blockers
+- Designed and automated a bookkeeping workflow that reads incoming emails, extracts data via Document Intelligence, and files documents to cloud storage using Azure Logic Apps
+- Built webhook-driven automations that resolved real-time reference-matching issues for invoice cycles, eliminating manual fixing per batch for CFO team members
+- Connecting with third-party system developers (e.g., Xero, FYI) to complete API security assessments and resolve integration constraints, supporting internal workflow development
+- Developed SQL stored procedures and migration scripts for efficient database operations and data consolidation
+- Monitored automation processes in production, providing timely error resolutions and optimizing run time
+- Developed UI automation workflows with PDF data extraction and manipulation using UiPath and Selenium
+- Delivered comprehensive technical documentation for all projects, following industry best practices
 
 ### Junior Software Developer, Punongbayan and Araullo
 **September 2023 – November 2024**
@@ -36,18 +39,8 @@ Automation Developer focused on streamlining business processes through end-to-e
 - Provide accurate data reports to stakeholders during development and issue resolution
 - Lead efforts to optimize loading times and improve user experience
 
----
-
-## Projects
-
-### BulkyBookWeb
-An e-commerce application using ASP.NET Core MVC, Entity Framework Core, ASP.NET Core Identity, Microsoft SQL Server, and Microsoft Azure App Services.
-
-### Glucovariae
+### College Thesis: Glucovariae
 Alternative ways to predict and monitor diabetes using saliva. It utilizes Arduino, C# programming (.NET framework), and Python.
-
-### Landing Pages
-Landing pages built with native HTML, CSS, and JavaScript.
 
 ---
 
@@ -60,24 +53,20 @@ Polytechnic University of the Philippines, Santa Maria, Bulacan Campus
 
 ## Technical Skills
 
-- C#/.NET (ASP.NET Core MVC, .NET 9), VB.NET
-- Web Development (HTML, CSS, JavaScript)
-- Object-Oriented Programming, Data Structures and Algorithms
-- SQL Server (T-SQL, Stored Procedures, SSMS)
-- Azure Functions, Logic Apps, Blob Storage
-- Azure OpenAI, Azure Communication Services
-- CI/CD Pipeline and Deployment
-- Teams SDK, Bot Framework, Adaptive Cards
-- SharePoint Development
-- UiPath (Robotics Enterprise Framework)
-- Power Automate
+- **Languages/Frameworks:** C#/.NET (ASP.NET Core MVC, .NET 9), VB.NET, HTML, CSS, JavaScript
+- **Cloud & Integration:** Azure Functions, Logic Apps, APIM, Key Vault, Azure Communication Services, Azure OpenAI/AI Foundry
+- **AI/Agent Development:** MCP server architecture, Teams AI Agents
+- **Database:** SQL Server, SSMS, database schema design
+- **Automation:** UiPath and Selenium
+- **Practices:** CI/CD, OOP, Data Structures & Algorithms, API, GitHub
 
 ---
 
 ## Trainings and Certifications
 
-- Automation Developer Professional Training - UiPath Academy
-- Automation Developer Associate Training - UiPath Academy
-- UiPath Academy Automation Explorer Training - UiPath Academy
-- .NET Core MVC - The Complete Guide 2023 [E-commerce] [.NET8] - Udemy
-- The Complete 2022 Web Development Bootcamp - Udemy
+- Anthropic - AI Fluency: Framework & Foundations
+- Anthropic - Claude 101
+- UiPath Academy - Automation Developer Professional Training
+- UiPath Academy - Automation Developer Associate Training
+- UiPath Academy - Automation Explorer Training
+- Udemy - The Complete 2022 Web Development Bootcamp
