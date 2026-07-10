@@ -639,7 +639,9 @@ body {
     align-items: flex-start;
     gap: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    color: inherit;
 }
 
 [data-theme="light"] .cert-card {
@@ -648,6 +650,15 @@ body {
 
 .cert-card:hover {
     border-color: rgba(37, 99, 235, 0.3);
+    transform: translateY(-2px);
+}
+
+.cert-card:not(a) {
+    cursor: default;
+}
+
+.cert-card:not(a):hover {
+    transform: none;
 }
 
 .cert-icon {
